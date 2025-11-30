@@ -27,8 +27,10 @@ Quick navigation for the taxonomy. Each entry links to the detailed Markdown fil
 - [Anti Harm Coercion](attack_techniques/anti_harm_coercion.md): Exploit safety logic with coercion, ethics loops, or reverse psychology.
 - [ASCII](attack_techniques/ascii.md): Encode payloads in ASCII art or representations to slip past filters.
 - [Artifact Smuggling](attack_techniques/artifact_smuggling.md): Hide instructions in tool/stdout files or artifacts that get re-ingested.
+- [Adversarial Suffixes](attack_techniques/adversarial_suffixes.md): Optimized token tails that flip refusals or elicit target outputs.
 - [Binary Streams](attack_techniques/binary_streams.md): Use binary data streams to confuse filters or hide intent.
 - [Cognitive Overload](attack_techniques/cognitive_overload.md): Overwhelm the model with volume/complexity to degrade reasoning.
+- [Context Truncation Abuse](attack_techniques/context_truncation_abuse.md): Pad input to push safety prompts out of the context window.
 - [Contradiction](attack_techniques/contradiction.md): Supply conflicting directives to destabilize instruction following.
 - [End Sequences](attack_techniques/end_sequences.md): Close scopes with terminators to pivot into attacker-controlled rules.
 - [Framing](attack_techniques/framing.md): Reframe context to steer responses toward attacker objectives.

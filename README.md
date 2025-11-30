@@ -48,6 +48,10 @@ This project is actively evolving! Contributions, corrections, and additions are
 - Keep examples concise, stick to ASCII unless a technique requires otherwise, and cite sources or real cases when you can.  
 - Before pushing, run `python scripts/validate_taxonomy.py` to catch missing sections.  
 
+## Watchlist  
+
+See `WATCHLIST.md` for emerging or under-discussed risks to monitor.  
+
 ## License & Attribution
 
 This methodology and repository content are licensed under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).

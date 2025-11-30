@@ -29,6 +29,8 @@ The taxonomy is organized into the following key areas:
 
 Each folder contains individual Markdown files with **detailed descriptions of specific components** within each category. The taxonomy is designed to be clear, structured, and easy to navigate.  
 
+- Start with `TAXONOMY_INDEX.md` for one-line summaries and links to every intent, technique, evasion, and supporting resource.  
+
 ## Who Is This For?  
 
 **Security researchers** analyzing LLM vulnerabilities  
@@ -38,7 +40,11 @@ Each folder contains individual Markdown files with **detailed descriptions of s
 
 ## Contributing  
 
-This project is actively evolving! Contributions, corrections, and additions are encouraged. Please follow the repository’s contribution guidelines to submit new findings or improvements.  
+This project is actively evolving! Contributions, corrections, and additions are encouraged. Please follow the repository's contribution guidelines to submit new findings or improvements.  
+
+- Pick the right folder (`attack_intents/`, `attack_techniques/`, or `attack_evasions/`) and add a focused Markdown entry.  
+- Use the common structure: Title, short Description, Attack Examples, Example Prompts, and Defensive Notes (when applicable).  
+- Keep examples concise, stick to ASCII unless a technique requires otherwise, and cite sources or real cases when you can.  
 
 ## License & Attribution
 

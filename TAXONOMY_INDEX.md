@@ -10,13 +10,26 @@ Quick navigation for the taxonomy. Each entry links to the detailed Markdown fil
   - [Confidential/Strategic Info Leakage](attack_intents/business_integrity/confidential_info.md): Extract roadmaps, finance, M&A, partner data, or other internal plans.
   - Policy overriding:
     - [Account Access](attack_intents/business_integrity/policy_overriding/account_access.md): Add/alter users or permissions without proper authorization.
+    - [Cancellations Unauthorized](attack_intents/business_integrity/policy_overriding/cancellations_unauthorized.md): Cancel orders, subscriptions, or contracts without proper approval.
+    - [Contract Alteration](attack_intents/business_integrity/policy_overriding/contract_alteration.md): Modify contractual terms or ToS without authorization.
     - [Coupon Codes](attack_intents/business_integrity/policy_overriding/coupon_codes.md): Generate, reveal, or apply unauthorized coupon codes.
     - [Discounts/Credits](attack_intents/business_integrity/policy_overriding/discounts.md): Grant unauthorized discounts, credits, or fee waivers.
+    - [Exchange Rate Exploitation](attack_intents/business_integrity/policy_overriding/exchange_rate_exploitation.md): Apply outdated or favorable currency exchange rates.
+    - [Fee Waivers](attack_intents/business_integrity/policy_overriding/fee_waivers.md): Remove or waive legitimate charges without authorization.
+    - [Free Feature Access](attack_intents/business_integrity/policy_overriding/free_feature_access.md): Unlock premium features without required subscription.
+    - [Geolocation Pricing](attack_intents/business_integrity/policy_overriding/geolocation_pricing.md): Apply prices from different geographic regions.
     - [Loyalty Rewards Granting](attack_intents/business_integrity/policy_overriding/loyalty_rewards_granting.md): Issue loyalty points or benefits outside eligibility criteria.
+    - [Payment Term Extensions](attack_intents/business_integrity/policy_overriding/payment_term_extensions.md): Extend payment deadlines without proper authorization.
+    - [Paywall Bypass](attack_intents/business_integrity/policy_overriding/paywall_bypass.md): Access paid content or premium services without payment.
     - [Pre-release Information Leakage](attack_intents/business_integrity/policy_overriding/prerelease_information_leakage.md): Reveal embargoed products, features, or confidential launch plans.
     - [Returns/Refunds](attack_intents/business_integrity/policy_overriding/returns_refunds.md): Approve returns or refunds without eligibility checks.
+    - [Reward Points Misuse](attack_intents/business_integrity/policy_overriding/reward_points_misuse.md): Redeem or transfer loyalty points in unauthorized ways.
+    - [Shipping Perks](attack_intents/business_integrity/policy_overriding/shipping_perks.md): Grant unauthorized shipping upgrades or free delivery.
+    - [Store Credit](attack_intents/business_integrity/policy_overriding/store_credit.md): Issue store credit outside official policy.
     - [Trials Manipulation](attack_intents/business_integrity/policy_overriding/trials_manipulation.md): Reset trial periods or bypass trial eligibility limits.
     - [Unauthorized Bookings](attack_intents/business_integrity/policy_overriding/unauthorized_bookings.md): Make bookings or reservations without proper authorization or payment.
+    - [Unauthorized User Addition](attack_intents/business_integrity/policy_overriding/unauthorized_user_addition.md): Add individuals to business accounts without authorization.
+    - [Warranty Extensions](attack_intents/business_integrity/policy_overriding/warranty_extensions.md): Extend warranty coverage beyond official terms.
 - [Compliance Violation Inducement](attack_intents/compliance_violation_inducement.md): Make AI generate content violating GDPR, HIPAA, PCI-DSS, or other regulations.
 - [Cross-Tenant Data Leakage](attack_intents/cross_tenant_data_leakage.md): Access data from other customers in multi-tenant AI systems.
 - [Data Poisoning](attack_intents/data_poisoning.md): Poison or corrupt training data, embeddings, or live responses.

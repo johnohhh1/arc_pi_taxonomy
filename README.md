@@ -42,9 +42,11 @@ Each folder contains individual Markdown files with **detailed descriptions of s
 
 This project is actively evolving! Contributions, corrections, and additions are encouraged. Please follow the repository's contribution guidelines to submit new findings or improvements.  
 
+- See `CONTRIBUTING.md` for the entry template and style guidance.  
 - Pick the right folder (`attack_intents/`, `attack_techniques/`, or `attack_evasions/`) and add a focused Markdown entry.  
 - Use the common structure: Title, short Description, Attack Examples, Example Prompts, and Defensive Notes (when applicable).  
 - Keep examples concise, stick to ASCII unless a technique requires otherwise, and cite sources or real cases when you can.  
+- Before pushing, run `python scripts/validate_taxonomy.py` to catch missing sections.  
 
 ## License & Attribution
 

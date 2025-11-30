@@ -1,0 +1,55 @@
+{
+  "_comment": "Copy this file to config.json and fill in your API details",
+
+  "target": {
+    "type": "openai",
+    "_comment_type": "Options: 'openai', 'anthropic', 'custom'",
+    "api_key": "your-api-key-here",
+    "model": "gpt-4",
+    "_comment_model": "Model to test - e.g., gpt-4, gpt-3.5-turbo, claude-3-opus-20240229",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "_comment_endpoint": "API endpoint (only needed for custom providers)"
+  },
+
+  "test_settings": {
+    "rate_limit_delay": 1.0,
+    "_comment_rate_limit": "Seconds to wait between tests (avoid rate limiting)",
+    "max_retries": 3,
+    "_comment_max_retries": "Number of retries for failed API calls",
+    "timeout": 30,
+    "_comment_timeout": "Request timeout in seconds",
+    "log_level": "INFO",
+    "_comment_log_level": "Options: DEBUG, INFO, WARNING, ERROR"
+  },
+
+  "safety": {
+    "require_confirmation": true,
+    "_comment_confirmation": "Ask for confirmation before running tests",
+    "stop_on_success": false,
+    "_comment_stop_on_success": "Stop testing if an attack succeeds",
+    "max_tests_per_category": 100,
+    "_comment_max_tests": "Maximum number of tests to run per category",
+    "save_payloads": true,
+    "_comment_save_payloads": "Save successful payloads for analysis",
+    "redact_sensitive_data": true,
+    "_comment_redact": "Redact API keys and sensitive data from logs"
+  },
+
+  "reporting": {
+    "output_format": "json",
+    "_comment_output_format": "Options: json, html, csv, markdown",
+    "include_failures": true,
+    "_comment_include_failures": "Include failed tests in reports",
+    "generate_charts": false,
+    "_comment_generate_charts": "Generate visualization charts (requires matplotlib)",
+    "export_to_csv": false,
+    "_comment_export_to_csv": "Export results to CSV for analysis"
+  },
+
+  "custom_tests": {
+    "enabled": false,
+    "_comment_custom_tests": "Enable loading of custom test modules",
+    "test_directory": "./custom_tests",
+    "_comment_test_directory": "Directory containing custom test scripts"
+  }
+}
